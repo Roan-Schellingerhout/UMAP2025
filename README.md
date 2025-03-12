@@ -3,14 +3,14 @@
 
 This repository holds all code and data used for the research paper. 
 
-- `./pre_experiment_scripts/` holds the scripts used to: 1. Generate the textual explanations according to given set of design prompts (this file, `ExplainGPT.py` also includes the system prompt used for our experiment) and 2. add those to a qualtrics survey file.
-- `./analysis/` holds the scripts to 1. Explore and pre-process the data and 2. Analyze it (both with in Python and in R).
+- `./pre_experiment_scripts/` holds the scripts used to: 1. Generate the textual explanations according to given set of design prompts (this file, `ExplainGPT.py` also includes the system prompt used for our experiment. The system prompt includes details on how, and what kind of, exemplary explanations should be generated. I.e., it includes a description of the data the model can expect, examples of job types to include, and general phrasing instructions;) and 2. add those to a qualtrics survey file.
+- `./analysis/` holds the scripts to 1. Explore and pre-process the data and 2. Analyze it (both in Python and in R).
 - `./results/` holds the resulting .csv files; the outcomes of our experiments. 
 
 The full list of statements related to the cognitive orientations, is the following:
 
 ## Need for Cognition
-This following scale is based on Cacioppo & Petty (1982).
+The following scale is based on Cacioppo & Petty (1982).
 
 - When something I read confuses me, I just put it down and forget it.
 - I am usually tempted to put more thought into a task than the job minimally requires.
